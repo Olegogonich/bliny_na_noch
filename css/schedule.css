@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.cl{
+    text-align: center;
+    border-top:2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    background-color: rgb(138, 29, 240);
+    color: #eee;
+    padding: 5px;
+    font-size: 23px;
+    font-weight: 400;
+}
+.math,.rus,.chem,.inf,.eng,.bio,.geo,.lit,.phys{
+    background-color: rgb(191, 160, 219);
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+    color: #eee;
+    font-size: 16px;
+    font-weight: 300;
+}
+.math:hover{
+    background-color: rgb(183, 147, 214);
+}.rus:hover,.chem:hover{
+    background-color: rgb(183, 147, 214);
+}.inf:hover{
+    background-color: rgb(183, 147, 214);
+}.eng:hover{
+    background-color: rgb(183, 147, 214);
+}.bio:hover{
+    background-color: rgb(183, 147, 214);
+}.geo:hover{
+    background-color: rgb(183, 147, 214);
+}.lit:hover{
+    background-color: rgb(183, 147, 214);
+}.phys:hover{
+    background-color: rgb(183, 147, 214);
+}
